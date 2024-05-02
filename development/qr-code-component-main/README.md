@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshots
 
-![QR code component for screens](development\qr-code-component-main\screenshots\screenshot-qr-component-mobile.png)
-![QR code component for mobile](development\qr-code-component-main\screenshots\screenshot-qr-component-screen.png)
+![QR code component for laptop](!development\qr-code-component-main\screenshots\screenshot-qr-component-laptop.png)
+![QR code component for mobile](development\qr-code-component-main\screenshots\screenshot-qr-component-mobile.png)
 
 ### Links
 
