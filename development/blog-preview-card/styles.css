@@ -1,0 +1,98 @@
+/* Variables - colors */
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+/* Fonts */
+@import url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+@import url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+@import url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+@import url(./assets/fonts//static/Figtree-SemiBold.ttf);
+
+/* Layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 1rem;
+  background-color: var(--Yellow);
+  font-family: "Figtree", sans-serif;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 2%;
+}
+
+/* Blog card styling */
+
+#blog-card {
+  width: 336px;
+  padding: 1.2rem;
+  border-radius: 15px;
+  border: var(--Black) solid 2px;
+  box-shadow: var(--Black) 10px 10px;
+  background-color: var(--White);
+}
+
+#img-main {
+  border-radius: 15px;
+}
+
+button {
+  border-radius: 5px;
+  color: var(--Black);
+  font-weight: 800;
+  background-color: var(--Yellow);
+  margin-top: 1rem;
+  border-style: none;
+  padding: 0.3rem 1rem;
+}
+
+#p-published {
+  color: var(--Black);
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: var(--Black);
+  font-weight: 800;
+}
+
+#p-main {
+  color: var(--Grey);
+  font-weight: 500;
+}
+
+#blog-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#blog-author img {
+  width: 32px;
+  height: 32.5px;
+}
+
+#blog-author p {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+/* States */
+
+h1:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
