@@ -27,6 +27,15 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## My process
 
+I have:
+
+1. Read about the project and its specifications.
+2. Thought of potential problems and about the general layout.
+3. Created HTML file and included all the elements according to the provided screenshots.
+4. Linked the external CSS file with HTML file, added all outside files (fonts, images).
+5. Created the general layout of the page with flexbox for the main part and position absolute for the footer.
+6. First styled the body, defined all colors as variables for future use, then styled the blog preview card starting from the outside and going inwards from top to bottom to style all all smaller elements.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -35,7 +44,9 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have reinforced:
+
+- CSS flexbox for genral and more detailed layout;
 
 ## Author
 
@@ -45,4 +56,4 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I want to thank [SinaDevCode](https://www.frontendmentor.io/profile/SinaDevCode) for giving me inspiration on how to structure my CSS file in a neat way.
