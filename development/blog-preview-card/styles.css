@@ -35,7 +35,8 @@ footer {
   width: 336px;
   padding: 1.2rem;
   border-radius: 15px;
-  border: var(--Black) solid 2px;
+  border-top: var(--Grey) solid 2px;
+  border-left: var(--Grey) solid 2px;
   box-shadow: var(--Black) 10px 10px;
   background-color: var(--White);
 }
@@ -47,7 +48,7 @@ footer {
 button {
   border-radius: 5px;
   color: var(--Black);
-  font-weight: 800;
+  font-weight: 900;
   background-color: var(--Yellow);
   margin-top: 1rem;
   border-style: none;
@@ -55,20 +56,19 @@ button {
 }
 
 #p-published {
-  color: var(--Black);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.8rem;
 }
 
 h1 {
   font-size: 1.3rem;
-  color: var(--Black);
-  font-weight: 800;
+  font-weight: 900;
 }
 
 #p-main {
   color: var(--Grey);
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 #blog-author {
@@ -85,7 +85,7 @@ h1 {
 }
 
 #blog-author p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 800;
 }
 
