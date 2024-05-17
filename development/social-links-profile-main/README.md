@@ -16,8 +16,8 @@ This is a solution to the [Social links profile coding challenge on Frontend Men
 
 ### Screenshot
 
-![Social links profile](./screenshots/)
-![Social links profile](./screenshots/)
+![Social links profile desktop](./screenshots/social-links-profile-main-desktop.png)
+![Social links profile mobile](./screenshots/social-links-profile-main-mobile.png)
 
 ### Links
 
