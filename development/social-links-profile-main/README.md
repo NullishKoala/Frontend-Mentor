@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Social links profile
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
+This is a solution to the [Social links profile coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
 
 ## Table of contents
 
@@ -10,20 +10,18 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### Screenshot
 
-![Blog preview card for laptop](./screenshots/blog-preview-card-laptop.png)
-![Blog preview card for mobile](./screenshots/blog-preview-card-mobile.png)
+![Social links profile](./screenshots/)
+![Social links profile](./screenshots/)
 
 ### Links
 
-[Solution URL](https://nullishkoala.github.io/Frontend-Mentor/development/blog-preview-card/blog-preview-card.html)
+[Solution URL]()
 
 ## My process
 
@@ -53,7 +51,3 @@ I have reinforced:
 - Github - [Nullish Koala](https://github.com/NullishKoala)
 - Frontend Mentor - [@Nullishkoala](https://www.frontendmentor.io/profile/NullishKoala)
 - LinkedIn - [Aneta Kaczmarek](https://www.linkedin.com/in/aneta-m-kaczmarek/)
-
-## Acknowledgments
-
-I want to thank [SinaDevCode](https://www.frontendmentor.io/profile/SinaDevCode) for giving me inspiration on how to structure my CSS file in a neat way.
