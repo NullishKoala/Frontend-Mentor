@@ -13,9 +13,6 @@
   --OffBlack: hsl(0, 0%, 8%);
 }
 
-/* Fonts */
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
-
 /* Layout */
 body {
   display: flex;
