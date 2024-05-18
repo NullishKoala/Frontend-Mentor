@@ -18,8 +18,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Blog preview card for laptop](./screenshots/blog-preview-card-laptop.png)
-![Blog preview card for mobile](./screenshots/blog-preview-card-mobile.png)
+![Blog preview card for laptop]()
+![Blog preview card for mobile]()
 
 ### Links
 
