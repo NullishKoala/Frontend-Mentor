@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page
 
-This is a solution to the [Recipe page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+This is a solution to the [Recipe page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
 
 ## The challenge
 

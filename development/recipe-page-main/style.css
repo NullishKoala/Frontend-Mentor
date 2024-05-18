@@ -36,6 +36,11 @@ body {
   font-size: 16px;
 }
 
+/* Footer */
+footer {
+  margin: 1rem;
+}
+
 /* Mobile */
 @media (max-width: 767px) {
   #container {
