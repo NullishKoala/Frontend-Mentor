@@ -1,6 +1,10 @@
-# Frontend Mentor - Social links profile
+# Frontend Mentor - Recipe page
 
-This is a solution to the [Social links profile coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+This is a solution to the [Recipe page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+
+## The challenge
+
+Your challenge is to build out this recipe page and get it looking as close to the design as possible.
 
 ## Table of contents
 
@@ -16,8 +20,8 @@ This is a solution to the [Social links profile coding challenge on Frontend Men
 
 ### Screenshot
 
-![Social links profile desktop](./screenshots/social-links-profile-main-desktop.png)
-![Social links profile mobile](./screenshots/social-links-profile-main-mobile.png)
+![Recipe page desktop](./screenshots/s)
+![Recipe page mobile](./screenshots/)
 
 ### Links
 
@@ -31,8 +35,8 @@ I have:
 2. Thought of potential problems and about the general layout.
 3. Created HTML file and included all the elements according to the provided screenshots.
 4. Linked the external CSS file with HTML file, added all outside files (fonts, images).
-5. Created the general layout of the page with flexbox for the main part and position absolute for the footer.
-6. First styled the body, defined all colors as variables for future use, then styled the social links container starting from the outside and going inwards from top to bottom to style all all smaller elements.
+5. Created the general layout of the page with flexbox for the main container and position absolute for the footer.
+6. First styled the body, defined all colors as variables for future use, then styled the recipe card starting from the outside and going inwards from top to bottom to style all all smaller elements.
 
 ### Built with
 
@@ -45,6 +49,8 @@ I have:
 I have reinforced:
 
 - CSS flexbox for general and more detailed layout
+- creating table in HTML
+- styling li::marker
 
 ## Author
 
