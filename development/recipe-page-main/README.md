@@ -20,12 +20,12 @@ Your challenge is to build out this recipe page and get it looking as close to t
 
 ### Screenshot
 
-![Recipe page desktop](./screenshots/s)
-![Recipe page mobile](./screenshots/)
+![Recipe page desktop](https://github.com/NullishKoala/Frontend-Mentor/blob/main/development/recipe-page-main/screenshots/recipe-page-desktop.png)
+![Recipe page mobile](https://github.com/NullishKoala/Frontend-Mentor/blob/main/development/recipe-page-main/screenshots/recipe-page-mobile.png)
 
 ### Links
 
-[Solution URL]()
+[Solution URL](https://nullishkoala.github.io/Frontend-Mentor/development/recipe-page-main/recipe-page.html)
 
 ## My process
 
