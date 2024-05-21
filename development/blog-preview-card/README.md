@@ -18,8 +18,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Blog preview card for laptop](https://github.com/NullishKoala/Frontend-Mentor/blob/main/development/blog-preview-card/screenshots/qr-code-component-desktop.png)
-![Blog preview card for mobile](https://github.com/NullishKoala/Frontend-Mentor/blob/main/development/blog-preview-card/screenshots/qr-code-component-mobile.png)
+![Blog preview card for desktop](https://github.com/NullishKoala/Frontend-Mentor/blob/main/development/blog-preview-card/screenshots/blog-preview-card-desktop.png)
 
 ### Links
 
