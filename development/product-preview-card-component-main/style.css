@@ -23,26 +23,22 @@
 - Weights: 700
 */
 
-/* 
-The designs were created to the following widths:
-- Mobile: 375px
-- Desktop: 1440px */
-
 body {
   margin: 0;
   background-color: var(--Cream);
   font-family: var(--Montserrat);
 }
 
-/* Layout */
-/* Mobile, Vertical Screen */
-@media() {
-} /* Desktop, Horizontal */
-@media() {
-}
-
 .card {
   background-color: var(--White);
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .product__name {
@@ -70,4 +66,28 @@ body {
 .product__cta {
   background-color: var(--DarkCyan);
   color: var(--White);
+}
+
+/* Layout */
+/* Mobile and vertical */
+@media (max-width: 480px) or ((min-width: 769px)and (max-width:834px)) {
+  .card {
+    width: 95%;
+    flex-direction: column;
+    margin: 1rem auto;
+  }
+}
+
+/* Desktop and horizontal */
+@media (min-width: 835px) or ((min-width: 481px) and (max-width: 768px)) {
+  .card {
+    min-width: 481px;
+    width: 35%;
+    flex-direction: row;
+    margin: 20vh auto;
+  }
+  .card__image,
+  .card__product {
+    width: 50%;
+  }
 }
