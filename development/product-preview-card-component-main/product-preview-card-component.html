@@ -24,34 +24,65 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container">
-      <div>
-        <img
-          src="./images/image-product-desktop.jpg"
-          alt="a bottele of Chanelle perfumes"
-        /><img
-          src="./images/image-product-mobile.jpg"
-          alt="a bottele of Chanelle perfumes"
-        />
+    <div class="card">
+      <div class="card__image">
+        <picture>
+          <source
+            media="(max-width: 480px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <source
+            media="(min-width:481px) and (max-width: 768px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <source
+            media="(min-width:769px) and (max-width: 834px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <source
+            media="(min-width: 835px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+
+          <img src="" alt="bottle of perfume" />
+        </picture>
       </div>
-      <div>
-        <p>Perfume</p>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p>
+      <!-- Alternatively I can use:
+        <picture>
+        <source
+          media="(orientation: portrait)"
+          srcset="./images/image-product-mobile.jpg"
+        />
+        <source
+          media="(orientation: landscape)"
+          srcset="./images/image-product-desktop.jpg"
+        <img src="" alt="" />
+      </picture> -->
+      <div class="card__product">
+        <p class="product__type">Perfume</p>
+        <h1 class="product__name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product__description">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
 
-        <table>
+        <table class="product__price">
           <tr>
-            <td>$149.99</td>
-            <td>$169.99</td>
+            <td class="price__regular">$149.99</td>
+            <td class="price__discounted">$169.99</td>
           </tr>
         </table>
-        <button id="btn add-to-cart">Add to Cart</button>
+        <button class="product__cta">Add to Cart</button>
       </div>
     </div>
     <footer>

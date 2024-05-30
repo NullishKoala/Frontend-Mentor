@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Root: colours and fonts */
+:root {
+  --Cream: hsl(30, 38%, 92%); /*main bg*/
+  --White: hsl(0, 0%, 100%); /*card bg*/
+  --VeryDarkBlue: hsl(212, 21%, 14%); /*h1*/
+  --DarkGrayishBlue: hsl(228, 12%, 48%); /*type, description*/
+  --DarkCyan: hsl(158, 36%, 37%); /*reg price, cta*/
+  --Montserrat: "Montserrat", sans-serif;
+  --Fraunces: "Fraunces", serif;
+}
+
+/* Fonts
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+*/
+
+/* 
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px */
+
+body {
+  margin: 0;
+  background-color: var(--Cream);
+  font-family: var(--Montserrat);
+}
+
+/* Layout */
+/* Mobile, Vertical Screen */
+@media() {
+} /* Desktop, Horizontal */
+@media() {
+}
+
+.card {
+  background-color: var(--White);
+}
+
+.product__name {
+  color: var(--VeryDarkBlue);
+  font-family: var(--Fraunces);
+}
+
+.product__type {
+  color: var(--DarkGrayishBlue);
+}
+.product__description {
+  color: var(--DarkGrayishBlue);
+  font-size: 0.9rem; /*0.9rem = 14px*/
+}
+
+.price__regular {
+  color: var(--DarkCyan);
+  font-family: var(--Fraunces);
+}
+
+.price__discounted {
+  color: var(--DarkGrayishBlue);
+}
+
+.product__cta {
+  background-color: var(--DarkCyan);
+  color: var(--White);
+}
