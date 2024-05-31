@@ -101,6 +101,12 @@ img {
   font-size: 1rem;
 }
 
+.product__cta:active,
+.product__cta:hover {
+  cursor: pointer;
+  background-color: hsl(158, 33%, 23%);
+}
+
 .cta__icon {
   width: 1.3em;
   margin-right: 0.5rem;
