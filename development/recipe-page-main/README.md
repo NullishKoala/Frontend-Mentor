@@ -4,7 +4,7 @@ This is a solution to the [Recipe page coding challenge on Frontend Mentor](http
 
 ## The challenge
 
-Your challenge is to build out this recipe page and get it looking as close to the design as possible.
+The challenge was to build out recipe page and get it looking as close to the design as possible.
 
 ## Table of contents
 
